@@ -3,7 +3,7 @@ defmodule Calculator do
     joao = %Student{name: "Joao Joaquim da Silva", results: build_subjects([8.5, 5.6, 9.8, 6.4, 1.5])}
     maria = %Student{name: "Maria Rita da Costa", results: build_subjects([5.5, 7.8, 6.8, 3.4, 8.5])}
     carlos = %Student{name: "Carlos Daniel", results: build_subjects([1.5, 2.6, 9.8, 5.4, 9.5])}
-    kaua =	%Student{name: "Kaua Camboinhas",results: build_subjects([5.4,	4.9,	2.2, 3.8])}
+    kaua = %Student{name: "Kaua Camboinhas",results: build_subjects([5.4,	4.9, 2.2, 3.8])}
 
     result = calculate([joao, maria, carlos, kaua])
     best = best_results(result)
